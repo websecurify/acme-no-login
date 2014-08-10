@@ -19,8 +19,6 @@
 
 The following application, written on top of MongoDB and NodeJS, demonstrates a simple but not too obvious vulnerability in the this particular technology stack that can be used to successfully bypass the login prompt.
 
-For more information how this is done, simply visit **TO BE INCLUDED**.
-
 # System Requirements
 
 You will need docker installed and fully functional.
