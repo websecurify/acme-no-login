@@ -1,0 +1,34 @@
+doctype html
+
+//- --
+
+html
+	head
+
+	//- --
+
+	body
+		div
+			if !message
+				h1 No Login
+
+				//- --
+
+				p I Dare you! I double Dare you!!
+
+				//- --
+
+				form(method="POST")
+					input(type="text", name="user", autocomplete="off")
+					input(type="password", name="pass", autocomplete="off")
+
+					//- --
+
+					input(type="submit")
+
+				//- --
+
+			else
+				p=message
+
+//- --
