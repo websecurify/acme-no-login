@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 
 # ---
 
@@ -21,7 +21,6 @@ RUN cd /tmp && npm install
 ADD . /app
 RUN rm -rf /app/node_modules
 RUN cp -a /tmp/node_modules /app/
-
 # ---
 
 EXPOSE 49090
